@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script>
+        window.onload = function() {
+          var loadingScreen = document.getElementById('loading-screen');
+          loadingScreen.style.display = "block";
+        };
+    </script>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Naveen Kumar</title>
+    <link rel="shortcut icon" href="/assets/svgs/H4R_vector_logo_white.svg" type="image/x-icon">
+    <link rel="icon" href="/assets/svgs/H4R_vector_logo_white.svg" sizes="32x32" type="image/png">
+    <link rel="apple-touch-icon-precomposed" href="/assets/svgs/H4R_vector_logo_white.svg" type="image/png" sizes="152x152">
+    <link rel="apple-touch-icon-precomposed" href="/assets/svgs/H4R_vector_logo_white.svg" type="image/png" sizes="120x120">
+    <link rel="icon" href="/assets/svgs/H4R_vector_logo_white.svg" sizes="96x96" type="image/png">
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&family=Rubik&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+    <link rel='stylesheet' type='text/css' media='screen' href='assets/css/indexR.css'>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src='assets/scripts/indexR.js'></script>
+    <link rel="stylesheet" href="https://unpkg.com/@egjs/flicking/dist/flicking.css" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://unpkg.com/@egjs/flicking/dist/flicking-inline.css" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://naver.github.io/egjs-flicking-plugins/release/latest/dist/flicking-plugins.css">
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+</head>
+<body>
+    <div id="loading-screen">
+        <!-- <div class="spinner"></div> -->
+        <ul role="progressbar" aria-busy="true" aria-label="Loading domino shop">
+            <li role="presentation"></li>
+            <li role="presentation"></li>
+            <li role="presentation"></li>
+            <li role="presentation"></li>
+            <li role="presentation"></li>
+            <li role="presentation"></li>
+            <li role="presentation"></li>
+        </ul>
+    </div>
+
+    <div class="background-wrapper" id="background-wrapper">
+        <div class="whole-whole" id="whole-whole">
+            <div class="whole">
+                <div class="wave" id="wave"></div>
+            </div>
+        </div>
+    
+        <div class="bacground-waves">
+            <div class="whole-whole">
+                <div class="whole">
+                    <div class="wave" id="wave"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="spot-blur" id="spot-blur"></div>
+    
+    <div class="main-main-container">
+        <div class="main-container" id="main-container">
+            <div class="page active" id="page1">
+                <div class="heading-container">
+                    <div style="display: inline-block;">
+                        <h1 class="heading-text" id="heading-text" unselectable="on" onselectstart="return false;" onmousedown="return false;">
+                            <span class="smaller-heading-text text">
+                                Hey,
+                            </span>
+                            <br>
+                            <span class="text">
+                                I am 
+                            </span>
+                            <span class="color-theme">
+                                Naveen.
+                            </span>
+                        </h1>
+                
+                        <h2 class="sub-heading-text text" id="sub-heading-text" unselectable="on" onselectstart="return false;" onmousedown="return false;">
+                            A 
+                            <span class="color-theme">Cybersecurity student</span>
+                            with a strong passion for <span class="color-theme">Information Security</span> & <span class="color-theme">Ethical Hacking</span>
+                            from India.
+                        </h2>
+                
+                        <hr class="divider" id="divider">
+                        <br>
+                        <p unselectable="on" onselectstart="return false;" onmousedown="return false;">
+                            <ul class="bio text" id="bio" style="list-style-type: none;">
+                                <li>
+                                    • I am currently pursuing B.E CSE with Cybersecurity from 
+                                    <a target="_blank" rel="noopener noreferrer" href="https://srmeaswari.ac.in/">
+                                        <span class="color-theme">
+                                            SRM Easwari Engineering College, Chennai
+                                        </span>
+                                    </a>
+                                </li>  
+                                <li>
+                                    • Cybersecurity Intern at 
+                                    <a target="_blank" rel="noopener noreferrer" href="https://www.cert-in.org.in/">
+                                        <span class="color-theme">
+                                            Indian Computer Emergency Response Team (CERT-In)
+                                        </span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </p>
+                        <br>
+                        <hr class="divider2" id="divider2">
+                
+                        <div id="social-logo-container" class="social-logo-container">
+                            <a target="_blank" rel="noopener noreferrer" href="https://github.com/workwithnaveen7">
+                                <img draggable="false" class="social-logo-main" id="social-logo2" src="assets/svgs/guthub_logo_color_theme.svg" alt="Check out my GitHub!">
+                            </a>
+                            <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/naveenkumar54321/">
+                                <img draggable="false" class="social-logo-main" id="social-logo3" src="assets/svgs/linkedin_logo_color_theme.svg" alt="Check out my LinkedIn!">
+                            </a>
+                        </div>
+                    </div>  
+                </div>
+            </div>
+
+            <div class="page" id="page2">
+                <div class="page2-container" id="page-container">
+                    <div class="about-me-container">
+                        <h1 class="about-me text" id="about-me">
+                            A Little Bit
+                            <span class="color-theme">
+                                About Me
+                            </span> 
+                        </h1>
+                        <hr class="divider" id="divider">
+                        <p class="about-me-text text" id="about-me-text">
+                            Hello! I'm Naveen, a passionate Cybersecurity student currently pursuing my studies at SRM Easwari Engineering College. With a keen interest in safeguarding digital environments, I am honing my skills as an Intern at the Indian Computer Emergency Response Team (CERT-In), where I actively contribute to enhancing cybersecurity measures and responding to cyber threats.
+                            <br><br>
+                            My interest in Cybersecurity started when my mom clicked on a phishy link and lost ₹5000. I realized the internet is not secure and filled with many threat actors, making it crucial to safeguard digital assets!
+                            <br><br>
+                            In addition to my academic and professional pursuits, I am dedicated to continuous learning and staying updated with the latest advancements in cybersecurity.
+                        </p>
+                        <hr class="divider" id="divider">
+                    </div>
+                </div>
+            </div>
+
+            <div class="page" id="page3">
+                <div class="skills-container" id="skills-container">
+                    <h1 class="skills-text text" id="skills-text">
+                        My
+                        <span class="color-theme">
+                            Skills
+                        </span> 
+                    </h1>
+                    <br>
+                    <hr class="divider" id="divider"> 
+                    <h2 class="sub-heading-text text" id="sub-heading-text" unselectable="on" onselectstart="return false;" onmousedown="return false;">
+                        <span class="color-theme"> Programming Languages- </span>
+                    </h2>
+                    <br>
+                    <p unselectable="on" onselectstart="return false;" onmousedown="return false;">
+                        <ul class="bio text" id="bio" style="list-style-type: none;">
+                            <li><b>
+                                Python, Java, C, C++                            
+                            </b></li> 
+                        </ul>
+                    </p>
+
+                    <h2 class="sub-heading-text text" id="sub-heading-text" unselectable="on" onselectstart="return false;" onmousedown="return false;">
+                        <span class="color-theme"> Database- </span>
+                    </h2>
+
+                    <br>
+                    <p unselectable="on" onselectstart="return false;" onmousedown="return false;">
+                        <ul class="bio text" id="bio" style="list-style-type: none;">
+                            <li><b>
+                                MySQL, MongoDB
+                            </b></li> 
+                        </ul>
+                    </p>
+                    
+                    <h2 class="sub-heading-text text" id="sub-heading-text" unselectable="on" onselectstart="return false;" onmousedown="return false;">
+                        <span class="color-theme"> Softwares/Tools- </span>
+                    </h2>
+                    
+                    <br>
+                    <p unselectable="on" onselectstart="return false;" onmousedown="return false;">
+                        <ul class="bio text" id="bio" style="list-style-type: none;">
+                            <li><b>
+                                Kali Linux, Wireshark, Nmap, Tcpdump, Nessus, Splunk, Wazuh, Burp Suite
+                            </b></li>                            
+                        </ul>
+                    </p>
+                    <h1 class="skills-text text" id="skills-text">
+                        My
+                        <span class="color-theme">
+                            Projects
+                        </span> 
+                    </h1>
+                    <br>
+
+                    <h2 class="sub-heading-text text" id="sub-heading-text" unselectable="on" onselectstart="return false;" onmousedown="return false;">
+                        <a target="_blank" rel="noopener noreferrer" href="https://github.com/workwithnaveen7/Security-Auditing-Dashboard">
+                            <span class="color-theme">
+                                Security Auditing Dashboard
+                            </span>
+                        </a>
+                    </h2>
+                    <br>
+                    <br>
+                    
+                    <p unselectable="on" onselectstart="return false;" onmousedown="return false;">
+                        <ul class="bio text" id="bio" style="list-style-type: none;">
+                            <li><b>
+                                This application provides a web-based interface for uploading, analyzing, and visualizing data from Excel files. It uses Dash, Plotly, and MySQL to deliver a powerful tool for security auditing and data visualization. (Click the project title to view)                          
+                            </b></li> 
+                        </ul>
+                    </p>
+                    
+                    <h2 class="sub-heading-text text" id="sub-heading-text" unselectable="on" onselectstart="return false;" onmousedown="return false;">
+                        <a target="_blank" rel="noopener noreferrer" href="https://github.com/workwithnaveen7/ProAssist-VI">
+                            <span class="color-theme">
+                                ProAssist VI
+                            </span>
+                        </a>
+                    </h2>
+                    
+                    <br><br>
+                    <p unselectable="on" onselectstart="return false;" onmousedown="return false;">
+                        <ul class="bio text" id="bio" style="list-style-type: none;">
+                            <li><b>
+                                It is a virtual intelligence project which is capable of interacting with users through voice and text commands. (click the project title to view)
+                            </b></li> 
+                        </ul>
+                    </p>
+                    
+                    
+                    
+            
+                    <hr class="divider2" id="divider2">
+                    <br><br><br><br><br>
+                    <div class="gfx-flickity flicking-viewport" id="gfx-flickity">
+                        <div class="flicking-camera"></div>
+                        <div class="flicking-arrow-prev shrink-arrows"></div>
+                        <div class="flicking-arrow-next shrink-arrows"></div>                                    
+                    </div>
+                    <div class="gfx-flickity vfx-flickity flicking-viewport" id="vfx-flickity">
+                        <div class="flicking-camera"></div>
+                        <div class="flicking-arrow-prev shrink-arrows"></div>
+                        <div class="flicking-arrow-next shrink-arrows"></div>
+                    </div>
+                </div>
+            </div>    
+        </div>
+
+        <img draggable="false" class="back-arrow-img" id="back-arrow-img" src="./assets/svgs/arrow.svg" alt="" style="cursor: pointer; display: none;">
+        <span class="nav-arrow-container" id="nav-arrow-container">
+            <img draggable="false" src="assets/svgs/arrow.svg" class="nav-arrow" id="nav-arrow">
+        </span>
+    </div>
+    <img draggable="false" src="assets/svgs/sun_color_theme.svg" class="light-mode-icon" id="light-mode-icon">
+    <img draggable="false" src="assets/svgs/moon_color_theme.svg" class="dark-mode-icon" id="dark-mode-icon">
+    <script src="https://unpkg.com/@egjs/flicking/dist/flicking.pkgd.min.js" crossorigin="anonymous"></script>
+    <script src="https://naver.github.io/egjs-flicking-plugins/release/latest/dist/plugins.min.js" async></script>
+</body>
+</html>
